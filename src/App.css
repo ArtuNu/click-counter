@@ -1,0 +1,38 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body{
+  background: url('../public/assets/images/stars.png');
+  background-size: contain;
+}
+
+.App{
+  width: 40%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(18, 24, 37);
+}
+
+.logo-container{
+  width: 40%;
+  height: max-content;
+  margin-top: 75px;
+}
+
+.logo-container > img{
+  margin: auto;
+  width: 100%;
+}
+
+
+@media (max-width: 1200px){
+  .App{
+    width: 90%;
+  }
+}
