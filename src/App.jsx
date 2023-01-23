@@ -1,5 +1,5 @@
 import "./App.css";
-import logo from "../public/assets/images/logo.png";
+import logo from "../public/logo.ico";
 import Button from "./components/Button";
 import Accounter from "./components/Accounter";
 import { useState } from "react";
